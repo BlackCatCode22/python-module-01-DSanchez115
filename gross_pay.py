@@ -6,8 +6,8 @@
 # (hours worked over 40 hours will be paid at time and a half)
 
 
-weekly_hours = int(input("How many hours did you work this week ?"))
-hour_rate = int(input("How much do you make per hour ?"))
+weekly_hours = float(input("How many hours did you work this week ?"))
+hour_rate = float(input("How much do you make per hour ?"))
 
 gross_pay = weekly_hours * hour_rate
 
